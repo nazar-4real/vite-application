@@ -1,0 +1,39 @@
+.header {
+  padding: 30px 50px;
+  background: var(--blue-color);
+  color: var(--white-color);
+  font-size: 22px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.header-link {
+  color: var(--white-color);
+}
+
+.header b {
+  margin: 0 auto 0 150px;
+}
+
+.social {
+  display: flex;
+  align-items: baseline;
+}
+
+.social__link {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white-color);
+  transition: all .3s;
+  letter-spacing: 1px;
+}
+
+.social__link:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--white-color);
+}
+
+.social__link+.social__link {
+  margin-left: 30px;
+}
