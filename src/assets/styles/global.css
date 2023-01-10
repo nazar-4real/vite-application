@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  height: inherit;
   font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
 }
